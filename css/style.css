@@ -1,0 +1,217 @@
+
+.main_container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin-top: 70px;
+    width: 80%;
+    /* border:1px solid red; */
+    /* margin-left: 150px; */
+    margin-left: 100px;
+}
+
+.box_1{
+    background-image: url("../Images/bac.png");
+    /* background-size: 500px; */
+    background-size: 550px;
+    /* background-size: 600px; */
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    width:50%;
+    background-position-y:30px ;
+    /* margin-left: 100px; */
+    /* margin-left: 30px; */
+    /* margin-left: 10px; */
+}
+.img2{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.box_2{
+    height:600px ;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.img3{
+    display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.img4{
+    display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+.form{
+   margin-left: 50px;
+   margin-top: 30px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=tel]{
+    width: 249% !important;
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#emailId {
+    color: red;
+    font-size: 14px;
+}
+#mobileId {
+    color: red;
+    font-size: 14px;
+}
+::placeholder {
+    color: black;
+    font-size: 14px;
+  }
+
+
+@media only screen and (min-width:425px) and (max-width:768px)
+{
+    .main_container{
+        display: flex !important;
+        flex-direction: column !important;
+         width: 100%;
+
+    }
+    .box_1{
+        background-image: url("../Images/bac.png");
+        background-size: 450px;
+        display: block;
+        margin: auto;
+        background-position-x: 30px;
+        width:100%;
+       
+    }
+    .img2{
+        width: 40%;
+        margin-top: 20px;
+        display: block;
+        margin: auto;
+        margin-left: 150px;
+       
+    }
+     .box_2{
+       
+        width: 80%;
+        
+    } 
+    .img3{
+        display: block;
+         margin: auto;
+         margin-top: 30px;
+         /* margin-left: 30px; */
+    }
+    .img4{
+        display: block;
+      margin: auto;
+      margin-top: 50px;
+      margin-left: 70px;
+    }
+    input[type=email]{
+        width: 82%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=tel]{
+        width: 200% !important;
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=submit]
+{
+    width: 82%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:424px)
+{
+    .main_container{
+        display: flex !important;
+        flex-direction: column !important;
+         width: 100%;
+         /* border:1px solid black; */
+         margin: 0px;
+
+    }
+    .box_1{
+        background-image: url("../Images/bac.png");
+        background-size: 330px;
+        background-position-x:15px ;
+        z-index: 1;
+        display: block;
+        margin: auto;
+        /* border: 1px solid red; */
+      
+        width:100%;
+       
+    }
+    .img2{
+        /* width: 60%; */
+        width: 64%;
+        margin-top: 20px;
+        display: block;
+        margin: auto;
+        margin-left: 75px;
+       
+    }
+     .box_2{
+       
+        width: 80%;
+        
+    } 
+    .img3{
+        display: block;
+         margin: auto;
+         margin-top: 30px;
+         width: 100%;
+         margin-left: 40px;
+    }
+    .img4{
+        display: block;
+      margin: auto;
+      margin-top: 50px;
+      width: 100%;
+      margin-left: 40px;
+    }
+    input[type=tel]{
+        width: 117% !important;
+        
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+    }
+
+}

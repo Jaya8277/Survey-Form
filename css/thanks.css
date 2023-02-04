@@ -1,0 +1,42 @@
+
+body{
+    background: #f6f6f6;
+}
+.gift{
+    display: block;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+h2:hover{
+    text-decoration: underline;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+.code{
+    display: flex;
+    justify-content: center;
+   margin-top: -20px;
+}
+.code:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width:425px) and (max-width:768px)
+{
+.gift{
+    width: 50%;
+}
+
+}
+@media only screen and (min-width:0px) and (max-width:424px){
+.gift{
+    width: 50%;
+}
+h2{
+    font-size: 15px;
+}
+
+}
